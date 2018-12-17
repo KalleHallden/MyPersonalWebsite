@@ -36,7 +36,7 @@ header
 
 .main-nav li.active
 {
-    border-bottom: 1px solid rgb(235, 235, 235);
+    border-bottom: 4px solid rgb(235, 235, 235);
 }
 
 .main-nav li a:before
@@ -44,7 +44,7 @@ header
     content: "";
     position: absolute;
     width: 100%;
-    height: 1px;
+    height: 4px;
     bottom: 0;
     left: 0;
     background-color: rgb(235, 235, 235);
