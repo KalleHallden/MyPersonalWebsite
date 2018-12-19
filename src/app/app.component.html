@@ -1,31 +1,18 @@
+
 <body>
-    <header>
-        <div class="row">
+  <header>
+      <div class="row">
           <div class="logo" >
             <img src="../assets/logo_white.png">
           </div>
-          <ul class="main-nav">
-            <li class="active"><a href=""> HOME </a></li>
-            <li class="normal"><a href=""> ABOUT </a></li>
-            <li class="normal"><a href=""> SERVICES </a></li>
-            <li class="normal"><a href=""> PROJECTS </a></li>
-            <li class="normal"><a href=""> CONTACT </a></li>
-          </ul>
+          <nav class="main-nav">
+            <li class="normal"><a routerLink="/home"> HOME </a></li>
+            <li class="normal"><a routerLink="/about"> ABOUT </a></li>
+            <li class="normal"><a routerLink="/projects"> PROJECTS </a></li>
+            <li class="normal"><a routerLink="/services"> SERVICES </a></li>
+            <li class="normal"><a routerLink="/contact"> CONTACT </a></li>
+          </nav>
         </div>
-
-        <div class="major">
-          <h1>
-            Elegant design &
-          </h1>
-          <h1>
-              innovative systems
-          </h1>
-        </div>
-        <div class="buttons-land">
-            <div class="buttons-landing-page">
-                <li><a href="">Get quote</a></li>
-                <li><a href="">Explore</a></li>
-            </div>
-        </div>
-      </header>
+  </header>
 </body>
+<router-outlet></router-outlet>
